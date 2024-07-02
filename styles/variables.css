@@ -1,1 +1,31 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-fonts: 'Inter-Variable';
+    --accent-fonts: 'PressStart2P-Regular';
+    --card-title-weight: 700;
+    --card-text-weight: 400;
+
+    --bg-color: #FFF;
+    --accent-color: #000;
+    --accent-color-border: #000;
+    --main-color-floppy: #FFF;
+    --main-color-text:#000;
+    --menu-pointer: rgba(0, 0, 0, 1);
+    --background-image: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
+
+    --header-width: clamp(23.438rem, 16.285rem + 30.516vw, 43.75rem);
+    --label-shadow: #FFF;
+    --contour-color: #000;
+    --filling-color: #FF0000;
+    --box-shadow: rgba(0, 0, 0, 1);
+    --filling-hover: rgba(0, 0, 0, 1);
+    --filling-active:  rgba(255, 0, 0, 1);
+    --accent-color-menu:rgba(0, 0, 0, 0.6);
+    --border-color-like: rgba(0, 0, 0, 1);
+    --color-focus: rgba(0, 0, 0, 1);
+    --batton-color-text: #FFF;
+    --floppy: #fff;
+}
