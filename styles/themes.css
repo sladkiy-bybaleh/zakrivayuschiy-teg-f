@@ -6,97 +6,109 @@
 */
 
 :root.theme-dark {
-    --bg-color: #000;
-    --card-title-weight: 785;
-    --card-text-weight: 465;
-    --main-color-text:#00CC14;
-    --background-image: 
-    repeating-linear-gradient(90deg, #000 0 2px, rgba(0 0 0 / 0) 2px 4px),
+  --bg-color: #000;
+  --card-title-weight: 785;
+  --card-text-weight: 465;
+  --main-color-text: #00cc14;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #000 0 2px,
+      rgba(0 0 0 / 0) 2px 4px
+    ),
     repeating-linear-gradient(180deg, #000 0 2px, rgba(0 0 0 / 0) 2px 4px),
     linear-gradient(180deg, #007f0c 0%, #004306 100%);
-    --accent-color-menu:rgba(0, 204, 20, 0.6);
-    --accent-color-border: #00CC14;
-    --label-shadow: #000;
-    --color-focus: rgba(0, 204, 20, 1);
-    --filling-hover: rgba(0, 204, 20, 1);
-    --filling-active:  rgba(255, 0, 0, 1);
-    --border-color-like:  rgba(0, 204, 20, 1);
-    --box-shadow: rgba(0, 204, 20, 1);
-    --batton-color-text: #00CC14;
-    --contour-color: rgba(0, 204, 20, 1);
-    --filling-color: rgba(0, 204, 20, 1);
-    --floppy: rgba(0, 204, 20, 1);  
+  --accent-color-menu: rgba(0, 204, 20, 0.6);
+  --accent-color-border: #00cc14;
+  --label-shadow: #000;
+  --color-focus: rgba(0, 204, 20, 1);
+  --filling-hover: rgba(0, 204, 20, 1);
+  --filling-active: rgba(255, 0, 0, 1);
+  --border-color-like: rgba(0, 204, 20, 1);
+  --box-shadow: rgba(0, 204, 20, 1);
+  --batton-color-text: #00cc14;
+  --contour-color: rgba(0, 204, 20, 1);
+  --filling-color: rgba(0, 204, 20, 1);
+  --floppy: rgba(0, 204, 20, 1);
 }
 
 :root.theme-light {
-    --bg-color: #FFF;
-    --card-title-weight: 700;
-    --card-text-weight: 400;
-    --main-color-text:#000;
-    --background-image: 
-    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
+  --bg-color: #fff;
+  --card-title-weight: 700;
+  --card-text-weight: 400;
+  --main-color-text: #000;
+  --background-image: repeating-linear-gradient(
+      90deg,
+      #d3d3d3 0 2px,
+      rgba(0 0 0 / 0) 2px 4px
+    ),
     repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
-    linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
-    --accent-color-menu:rgba(0, 0, 0, 0.6);
-    --accent-color-border: #000;
-    --label-shadow: #FFF;
-    --color-focus: rgba(0, 0, 0, 1);
-    --filling-hover: rgba(0, 0, 0, 1);
-    --filling-active:  rgba(255, 0, 0, 1);
-    --border-color-like: rgba(0, 0, 0, 1);
-    --box-shadow: rgba(0, 0, 0, 1);
-    --batton-color-text: #FFF;
-    --contour-color: #000;
-    --filling-color: #FF0000;
-    --floppy: #fff;
+    linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  --accent-color-menu: rgba(0, 0, 0, 0.6);
+  --accent-color-border: #000;
+  --label-shadow: #fff;
+  --color-focus: rgba(0, 0, 0, 1);
+  --filling-hover: rgba(0, 0, 0, 1);
+  --filling-active: rgba(255, 0, 0, 1);
+  --border-color-like: rgba(0, 0, 0, 1);
+  --box-shadow: rgba(0, 0, 0, 1);
+  --batton-color-text: #fff;
+  --contour-color: #000;
+  --filling-color: #ff0000;
+  --floppy: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
-:root{
+  :root {
     --bg-color: #000;
     --card-title-weight: 785;
     --card-text-weight: 465;
-    --main-color-text:#00CC14;
-    --background-image: 
-    repeating-linear-gradient(90deg, #000 0 2px, rgba(0 0 0 / 0) 2px 4px),
-    repeating-linear-gradient(180deg, #000 0 2px, rgba(0 0 0 / 0) 2px 4px),
-    linear-gradient(180deg, #007f0c 0%, #004306 100%);
-    --accent-color-menu:rgba(0, 204, 20, 0.6);
-    --accent-color-border: #00CC14;
+    --main-color-text: #00cc14;
+    --background-image: repeating-linear-gradient(
+        90deg,
+        #000 0 2px,
+        rgba(0 0 0 / 0) 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #000 0 2px, rgba(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #007f0c 0%, #004306 100%);
+    --accent-color-menu: rgba(0, 204, 20, 0.6);
+    --accent-color-border: #00cc14;
     --label-shadow: #000;
     --color-focus: rgba(0, 204, 20, 1);
     --filling-hover: rgba(0, 204, 20, 1);
-    --filling-active:  rgba(255, 0, 0, 1);
-    --border-color-like:  rgba(0, 204, 20, 1);
+    --filling-active: rgba(255, 0, 0, 1);
+    --border-color-like: rgba(0, 204, 20, 1);
     --box-shadow: rgba(0, 204, 20, 1);
-    --batton-color-text: #00CC14;
+    --batton-color-text: #00cc14;
     --contour-color: rgba(0, 204, 20, 1);
     --filling-color: rgba(0, 204, 20, 1);
     --floppy: rgba(0, 204, 20, 1);
-}
+  }
 }
 
 @media (prefers-color-scheme: light) {
-    :root{
-    --bg-color: #FFF;
+  :root {
+    --bg-color: #fff;
     --card-title-weight: 700;
     --card-text-weight: 400;
-    --main-color-text:#000;
-    --background-image: 
-    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
-    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
-    linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
-    --accent-color-menu:rgba(0, 0, 0, 0.6);
+    --main-color-text: #000;
+    --background-image: repeating-linear-gradient(
+        90deg,
+        #d3d3d3 0 2px,
+        rgba(0 0 0 / 0) 2px 4px
+      ),
+      repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgba(0 0 0 / 0) 2px 4px),
+      linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+    --accent-color-menu: rgba(0, 0, 0, 0.6);
     --accent-color-border: #000;
-    --label-shadow: #FFF;
+    --label-shadow: #fff;
     --color-focus: rgba(0, 0, 0, 1);
     --filling-hover: rgba(0, 0, 0, 1);
-    --filling-active:  rgba(255, 0, 0, 1);
+    --filling-active: rgba(255, 0, 0, 1);
     --border-color-like: rgba(0, 0, 0, 1);
     --box-shadow: rgba(0, 0, 0, 1);
-    --batton-color-text: #FFF;
+    --batton-color-text: #fff;
     --contour-color: #000;
-    --filling-color: #FF0000;
+    --filling-color: #ff0000;
     --floppy: #fff;
-    }
+  }
 }
