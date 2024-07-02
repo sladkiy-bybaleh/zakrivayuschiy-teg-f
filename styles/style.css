@@ -352,7 +352,6 @@
   position: relative;
   z-index: 2;
   mix-blend-mode: difference;
-  color: black;
   color: var(--floppy);
 }
 
